@@ -1,7 +1,8 @@
 const { leerInput, inquirerMenu, pausa } = require("./helpers/inquirer")
+const Busquedas = require("./models/search")
 
 const main = async()=>{
-	
+	const busquedas = new Busquedas()	
 	let opt 
 
 	do{
