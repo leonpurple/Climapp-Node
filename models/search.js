@@ -3,10 +3,10 @@
 
 class Busquedas {
 
-	constructor(){
+	constructor() {
 		//TODO leer DDBB si existe
 	}
-	async ciudad( lugar = '' ){
+	async ciudad(lugar = '') {
 		//aqui hacemos la peticion http
 		console.log(lugar)
 
